@@ -58,10 +58,14 @@ def create_fruit_table(fruit, cur, conn):
     cur.execute(f"INSERT OR REPLACE INTO {fruit} (id, genus, name, family, ord, carbs, pro, fat, cals, sug) VALUES (?,?,?,?,?,?,?,?,?,?)", (id, genus, name, family, ord, carbs, pro, fat, cals, sug))
     conn.commit()
 
+# def calculate_carbs(cur, conn):
+
+
+
 def main():
     # SETUP DATABASE AND TABLE
     cur, conn = setUpDatabase('fruity_vice.db')
-    lst_fruits = ['Apple', 'Apricot', 'Banana', 'Blueberry']
+    lst_fruits = ['Apple', 'Apricot', 'Banana', 'Blueberry', 'Lemon', 'Lime', 'Mango', 'Orange', 'Papaya', 'Pear']
     for fruit in lst_fruits:
         create_fruit_table(fruit, cur, conn)
 
