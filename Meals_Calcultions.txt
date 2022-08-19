@@ -1,0 +1,15 @@
+Calculations from The Meals DB API
+Ingredient with most meals,Ingredient with least meals
+Garlic Clove,Stir-fry Vegetables
+
+Top 10 Main Ingredients Based Off Of Counts Of Meals:
+Ingredient,Count of Meals With That Main Ingredient
+Garlic Clove,12
+Banana,3
+Red Pepper Flakes,2
+Smoked Haddock,2
+Duck Legs,2
+Stir-fry Vegetables,1
+Baby Aubergine,1
+Chopped Parsley,1
+Bulgur Wheat,1
